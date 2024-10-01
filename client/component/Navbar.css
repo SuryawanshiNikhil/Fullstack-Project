@@ -1,0 +1,23 @@
+.container {
+    max-width: 140rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    display: flex;
+    padding-right: 45px;
+    list-style-type: none; /* Remove default bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  ul li {
+    margin-right: 20px; /* Add space between the items */
+  }
+  
+  ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
